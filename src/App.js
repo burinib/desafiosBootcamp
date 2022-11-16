@@ -1,10 +1,17 @@
 import './App.css';
+import ComponenteA from './components/ComponenteA';
+import {contacto} from "./components/contacto"
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>hola buri</h1>
+        <ComponenteA perfil={contacto}/>
       </header>
     </div>
   );
